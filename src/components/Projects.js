@@ -1,23 +1,42 @@
 import React, { useEffect, useState } from "react"
+import { graphql } from "gatsby"
 import ProjectCard from "./ProjectCard"
-import content from "../content.json"
 
-const Projects = () => {
+export default ({data}) => {
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
-    setProjects(content.projects)
+    let filteredProjects = data.viewer.repositories.nodes.filter(project => project.isPrivate == false);
+    setProjects(filteredProjects)
   }, [])
 
   return (
-    <div className="container mx-auto px-5">
-      <div className="inline-flex mb-4">
-        {projects.map(project => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
+    <React.Fragment>
+      <h1 className="text-center text-5xl">My projects</h1>
+      <div className="container mx-auto">
+        <div class="flex flex-wrap -mx-2 overflow-hidden">
+          {projects.map(project => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
+        </div>
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 
-export default Projects
+export const query = graphql`
+  query {
+    viewer {
+      repositories(first: 100, isFork: false, affiliations: OWNER) {
+        nodes {
+          id
+          name
+          url
+          isPrivate
+          description
+          openGraphImageUrl
+        }
+      }
+    }
+  }
+`

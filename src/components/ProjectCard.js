@@ -3,15 +3,15 @@ import React from "react"
 export default ({ project }) => {
   return (
     <React.Fragment>
-      <div className="w-full p-5">
+      <div class="my-3 px-3 w-1/4 overflow-hidden">
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <img
             className="w-full"
-            src={project.image}
-            alt={project.imageDescription}
+            src={project.openGraphImageUrl}
+            alt={project.description}
           />
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">{project.title}</div>
+            <div className="font-bold text-xl mb-2">{project.name}</div>
             <p className="text-gray-700 text-base">{project.description}</p>
           </div>
           <div className="px-6 py-4">
