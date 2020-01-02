@@ -1,23 +1,22 @@
 {
-    "content": {
-        "about_me": {},
-        "projects": [
-            {   "id": 0,
-                "title": "Dummy project",
-                "description": "This is my dummy project",
-                "image": "https://dummyimage.com/300x300/000/fff",
-                "imageDescription": "Dummy image",
-                "tags": ["dummy", "project"]
-            },
-            {
-                "id": 1,
-                "title": "Dummy project 2",
-                "description": "This is my dummy project 2",
-                "image": "https://dummyimage.com/300x300/000/fff",
-                "imageDescription": "Dummy image",
-                "tags": ["dummy", "project"]
-            }
-        ],
-        "contact": {}
+  "about_me": {},
+  "projects": [
+    {
+      "id": 0,
+      "title": "Dummy project",
+      "description": "This is my dummy project",
+      "image": "https://dummyimage.com/300x300/000/fff",
+      "imageDescription": "Dummy image",
+      "tags": ["dummy", "project"]
+    },
+    {
+      "id": 1,
+      "title": "Dummy project 2",
+      "description": "This is my dummy project 2",
+      "image": "https://dummyimage.com/300x300/000/fff",
+      "imageDescription": "Dummy image",
+      "tags": ["dummy", "project"]
     }
+  ],
+  "contact": {}
 }
