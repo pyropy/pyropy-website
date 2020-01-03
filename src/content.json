@@ -1,60 +1,13 @@
 {
   "about": {
     "title": "About me",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus bibendum nisl in egestas. Ut luctus nisi turpis, ut ultrices ligula pellentesque sit amet. Maecenas suscipit ex orci, et gravida ligula porttitor a. Vestibulum ut aliquet nulla, sed venenatis urna. Vivamus varius ac sapien dapibus tincidunt. Phasellus convallis quam sit amet erat elementum eleifend. Nullam a luctus nunc, id ultricies nisl. Curabitur nec diam vel enim posuere feugiat eget ac lectus. Nunc massa augue, tempus sed neque vel, semper feugiat sem. Donec at viverra odio. Donec luctus lectus id scelerisque finibus. Sed in nisl condimentum, venenatis libero vitae, varius erat. Morbi a hendrerit sem. Cras tristique enim nulla."
+    "description": "Hi my name is Srdjan and I am Python developer. I enjoy working on backend but also I love learning new serverside and clientside technologies."
   },
-  "projects": [
-    {
-      "id": 0,
-      "title": "Dummy project",
-      "description": "This is my dummy project",
-      "image": "https://dummyimage.com/300x300/000/fff",
-      "imageDescription": "Dummy image",
-      "tags": ["dummy", "project"]
-    },
-    {
-      "id": 1,
-      "title": "Dummy project 2",
-      "description": "This is my dummy project 2",
-      "image": "https://dummyimage.com/300x300/000/fff",
-      "imageDescription": "Dummy image",
-      "tags": ["dummy", "project"]
-    },
-    {
-      "id": 2,
-      "title": "Dummy project 3",
-      "description": "This is my dummy project 3",
-      "image": "https://dummyimage.com/300x300/000/fff",
-      "imageDescription": "Dummy image",
-      "tags": ["dummy", "project"]
-    },
-    {
-      "id": 3,
-      "title": "Dummy project 4",
-      "description": "This is my dummy project 4",
-      "image": "https://dummyimage.com/300x300/000/fff",
-      "imageDescription": "Dummy image",
-      "tags": ["project", "open-source"]
-    },
-    {
-      "id": 4,
-      "title": "Dummy project 5",
-      "description": "This is my dummy project 5",
-      "image": "https://dummyimage.com/300x300/000/fff",
-      "imageDescription": "Dummy image",
-      "tags": ["dummy", "open-source"]
-    },
-    {
-      "id": 5,
-      "title": "Dummy project 6",
-      "description": "This is my dummy project 6",
-      "image": "https://dummyimage.com/300x300/000/fff",
-      "imageDescription": "Dummy image",
-      "tags": ["dummy", "project"]
-    }
-  ],
   "contact": {
     "title": "Contact",
-    "description": "stankovic.srdjo@gmail.com"
+    "email": "stankovic.srdjo@gmail.com",
+    "github": "https://github.com/pyropy",
+    "twitter": "https://github.com/pyropy",
+    "linkedin":  "https://www.linkedin.com/in/stankovicsrdjan/"
   }
 }

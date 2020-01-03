@@ -3,6 +3,11 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+const fs = require(`fs`)
+const fetch = require(`node-fetch`)
+const { buildClientSchema } = require(`graphql`)
+const { createHttpLink } = require(`apollo-link-http`)
+
 
 module.exports = {
   plugins: [
